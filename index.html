@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para Liliana 🌙❤️</title>
+
+<style>
+body {
+    background: linear-gradient(180deg, #ffe6f0, #fff);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    overflow: hidden;
+}
+
+/* Animación principal */
+.mensaje {
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    display: inline-block;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    animation: aparecer 2s ease;
+}
+
+@keyframes aparecer {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+    color: #d63384;
+}
+
+p {
+    font-size: 18px;
+    color: #444;
+}
+
+.corazon {
+    font-size: 60px;
+    animation: latido 1.5s infinite;
+}
+
+@keyframes latido {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+/* Corazones flotando */
+.flotando {
+    position: absolute;
+    font-size: 20px;
+    animation: flotar 6s linear infinite;
+}
+
+@keyframes flotar {
+    from { bottom: -10%; opacity: 1; }
+    to { bottom: 110%; opacity: 0; }
+}
+
+/* Mensaje secreto */
+.secreto {
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff0f6;
+    border-radius: 15px;
+    color: #d63384;
+    font-size: 18px;
+    display: none;
+    animation: aparecer 1s ease;
+}
+
+/* Pista */
+.pista {
+    margin-top: 15px;
+    padding: 15px;
+    background: #fff7fb;
+    border-radius: 12px;
+    color: #c9184a;
+    font-size: 16px;
+    display: none;
+}
+
+/* Inputs y botones */
+input {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.boton-secreto {
+    margin-top: 15px;
+    padding: 10px 22px;
+    font-size: 15px;
+    background-color: #ff7aa2;
